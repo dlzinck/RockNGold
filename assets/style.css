@@ -23,8 +23,12 @@ body {
 }
 
 .hero {
-    background: url('./images/heroimg2.jpg') center/cover no-repeat;
-    height: 500px;
+    background: url('./images/heroimg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 650px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -69,25 +73,29 @@ body {
 
 .slider {
     position: relative;
-    width: 600px;
-    height: 400px;
+    width: 900px;
+    height: 500px;
     overflow: hidden;
     margin: 10px;
+    border: 3px solid var(--gold);
+
 }
 
 .box {
     position: absolute;
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     text-align: justify;
     background-color: var(--skyBlue);
     border: 2px solid var(--gold);
     border-radius: 10px;
-    margin-top: 20px;
     padding: 20px;
     transition: 0.5s;
-    left: calc(50% - 110px);
+    left: 0;
+    right: 0;
     top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .box h2 {
@@ -114,6 +122,12 @@ body {
 
 .box il {
     padding: 10px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #card1{
@@ -175,6 +189,7 @@ body {
         1px -1px 0 var(--rust), 
         -1px -1px 0 var(--rust);
     left: 0;
+    margin: 5px;
 }
 
 #next {
