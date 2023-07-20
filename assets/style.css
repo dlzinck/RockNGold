@@ -74,7 +74,7 @@ body {
 .slider {
     position: relative;
     width: 900px;
-    height: 500px;
+    height: 700px;
     overflow: hidden;
     margin: 10px;
     border: 3px solid var(--gold);
@@ -83,8 +83,8 @@ body {
 
 .box {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 550px;
     text-align: justify;
     background-color: var(--skyBlue);
     border: 2px solid var(--gold);
@@ -124,48 +124,17 @@ body {
     padding: 10px;
 }
 
+.image img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+}
 .bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin: auto;
 }
-
-#card1{
-    background: url(./images/image1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#card2{
-    background: url(./images/image2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#card3{
-    background: url(./images/image3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#card4{
-    background: url(./images/image4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#card5{
-    background: url(./images/image5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#card6{
-    background: url(./images/image6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-
-
 
 
 
